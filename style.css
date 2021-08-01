@@ -1,0 +1,66 @@
+body {
+    font-family: 'Crimson Pro', serif;
+  }
+  H1{
+    font-size: 40PX;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    color: dimgray;
+}
+.tomato-highlight{
+    color: tomato
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}    
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( 45deg, lightSalmon, tomato);
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;  
+}
+.top-banner{
+    background-image: url(image/header-bg.png)
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+#header{
+    padding-top: 100px;
+}
+.dream-area {
+    background-image: url(image/biography-bg.png);
+    background-repeat: no-repeat;
+}
+#divission{
+    padding-top: 200px;
+}
+.middle{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.column {
+    float: left;
+    width: 31%;
+    padding: 10px;
+}
+.row{
+    padding-left: 20px;
+    padding-bottom: 100px;
+}
+.ending{
+    text-align: center;
+}
